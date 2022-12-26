@@ -40,7 +40,11 @@ baseurl: "" # does not include hostname
 
 # Outputting
 permalink:     date
-paginate:       10
+paginate:{% for post in paginator.posts %}
+    {% include post-content.html %}
+    {% endfor %}
+    
+    {% include pagination.html %}
 paginate_path: /page:num
 timezone:      null
 

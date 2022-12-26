@@ -3,12 +3,8 @@ title: "PORTFOLIO\n"
 description: "iOS 개발자 공선의"
 url: 'http://127.0.0.1:4000' # the base hostname & protocol for your site
 nav: "true"
-footer_text: '© 2016 Jami Gibbs'
-twitter: 'jamigibbs'
-github: 'jamigibbs'
-medium: 'blog.jamigibbs.com'
+footer_text: '© 2016 Seonui Kong'
 
 # Admin Settings
-admin_name: 'Jami Gibbs'
-admin_email: 'jami0821@gmail.com'
-google_analytics: "UA-9999999-99" # Update with your own tracking ID
+admin_name: 'Seonui Kong'
+admin_email: 'gkwl7878@gmail.com'

@@ -1,5 +1,5 @@
 # Site settings
-title: (포공) 포트폴리오 공선의.
+title: title.
 email: gkwl7878@gmail.com
 url: https://github.com/beans2ios/beans2ios.github.io
 description: "iOS 개발자 공선의입니다."
@@ -25,14 +25,14 @@ disqus_shortname: myshortname
 
 # Color settings (hex-codes without the leading hash-tag)
 color:
-  primary: 000000 #80B3FF
-  primary-rgb: "255,255,255" #"128,179,255"
-  secondary: 1c0101c #FD6E8A
-  secondary-dark: ffffff #A2122F
+  primary: 18bc9c #80B3FF
+#  primary-rgb: "24,288,156" #"128,179,255"
+  secondary: 2c3e50 #FD6E8A
+  secondary-dark: 233140 #A2122F
 
 # Footer settings
 footer:
-  copyright: Kong seoneui
+  copyright: Dr. Henry Jekyll
   location: Location
   social: Around the Web
   credits: Credits

@@ -1,8 +1,8 @@
 # Site Settings
 title: "PORTFOLIO\n"
 description: "iOS 개발자 공선의"
-url: 'http://127.0.0.1:4000' # the base hostname & protocol for your site
-nav: "true"
+#url: 'http://127.0.0.1:4000' # the base hostname & protocol for your site
+#nav: "true"
 footer_text: '© 2016 Seonui Kong'
 
 # Admin Settings

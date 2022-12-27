@@ -1,5 +1,5 @@
 ---
-title: Introduce
+title: Introduce:raising_hand:
 author: Kong Seonui
 date: 2022-12-27
 category: Jekyll

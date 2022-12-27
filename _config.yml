@@ -1,74 +1,73 @@
-# Where things are
-source:      .
-destination: ./_site
-plugins_dir:     ./_plugins
-layouts_dir:     ./_layouts
-data_dir: ./_data
-includes_dir: ./_includes
-# collections: null
+# Site Settings
+baseurl: "/Grape-Academic-Theme"
 
-# Handling Reading
-safe:         false
-include:      [".htaccess"]
-exclude:      []
-keep_files:   [".git", ".svn"]
-encoding:     "utf-8"
-markdown_ext: "markdown,mkdown,mkdn,mkd,md"
+# Features Setting
+# Turn subpages on or off
+publications: True
+presentations: True
+blog: True
 
-# Filtering Content
-show_drafts: null
-limit_posts: 0
-future:      true
-unpublished: false
+# Language of the website
+lang: en
 
-# Plugins
-whitelist: []
-gems:      [jekyll-paginate]
+# Search engine optimization settings
+title: Grape Academic Theme
+tagline: A jekyll theme for academic portfolios
+description: The demonstration page for the Grape Academic Theme, a jekyll theme for academic portfolios based on the Grape Theme.
+author: Christoph Jabs (chrjabs)
+twitter:
+  username: chrjabs
+  card: A jekyll theme for academic portfolios
+logo: /assets/img/smile.png
+social:
+  name: Christoph Jabs
+  links:
+    - https://twitter.com/chrjabs
+    - https://github.com/chrjabs
+locale: en_GB
 
-# Conversion
-markdown:    kramdown
-highlighter: rouge
-lsi:         false
-excerpt_separator: "\n\n"
-# incremental: false
+# Page Settings
+theme_settings:
+  title: Grape Academic Theme
 
-# Serving
-detach:  false
-port:    4000
-host:    127.0.0.1
-baseurl: "" # does not include hostname
+  experience_title: EXPERIENCE
+  interests_title: RESEARCH INTERESTS
+  skills_title: SKILLS
+  awards_title: AWARDS
+  projects_title: PROJECTS
+  recentpubs_title: RECENT PUBLICATIONS
 
-# Outputting
-permalink:     date
-paginate:       2
-paginate_path: /page:num
-timezone:      null
+# Pagination
+paginate: 5
+paginate_path: "blog/page:num"
 
-quiet:    false
-defaults: []
+# Build Settings
+sass:
+  sass_dir: _sass
+  style: :compressed
+plugins: ['jekyll-paginate', 'jekyll/scholar', 'jekyll-seo-tag']
+bootstrap:
+  assets: true
 
-# Markdown Processors
-rdiscount:
-  extensions: []
+# Bibliography settings
+scholar:
+  bibliography: publications.bib
+  bibliography_template: pubstemplate
+  style: apa
+  locale: en
+  last_name: Me
+  first_name: [Myself, M.]
+  sort_by: year,month
+  order: descending,ascending
 
-redcarpet:
-  extensions: []
+filtered_bibtex_keywords: [abbr, abstract, arxiv, bibtex_show, html, pdf, selected, supp, blog, code, poster, slides, website] # Filter out certain bibtex entry keywords used internally from the bib output
 
-kramdown:
-  auto_ids:       true
-  footnote_nr:    1
-  entity_output:  as_char
-  toc_levels:     1..6
-  smart_quotes:   lsquo,rsquo,ldquo,rdquo
-  enable_coderay: false
-
-  coderay:
-    coderay_wrap:              div
-    coderay_line_numbers:      inline
-    coderay_line_number_start: 1
-    coderay_tab_width:         4
-    coderay_bold_every:        10
-    coderay_css:               style
-
-
-include: ['_pages']
+academicons:
+  version: "1.9.1"
+  integrity: "sha256-i1+4qU2G2860dGGIOJscdC30s9beBXjFfzjWLjBRsBg="
+fontawesome:
+  version: "5.15.4"
+  integrity: "sha256-mUZM63G8m73Mcidfrv5E+Y61y7a12O5mW4ezU3bxqW4="
+jquery:
+  version: "3.6.0"
+  integrity: "sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4="

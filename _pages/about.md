@@ -1,9 +1,9 @@
 ---
-title: About
-author: Tao He
-date: 2022-02-04
+title: 소개
+author: Kong Seonui
+date: 2022-12-27
 category: Jekyll
 layout: post
 ---
 
-This is an about page.
+

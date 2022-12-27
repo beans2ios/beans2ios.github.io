@@ -1,5 +1,5 @@
 ---
-title: Abount
+title: Introduce
 author: Kong Seonui
 date: 2022-12-27
 category: Jekyll

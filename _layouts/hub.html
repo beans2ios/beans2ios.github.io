@@ -1,36 +1,33 @@
----
-layout: page
----
-<div id="hub">
-  <section id="header-content">
-    <h1>{{ page.title }}</h1>
-  </section>
-  <section class="bg"></section>
-  <div class="row">
-    <!-- Aside Navigation  -->
-    <aside id="aside" class="col-md-4">
-      {% include hubaside.html %}
-    </aside>
-    <!-- Post List -->
-    <section id="content" class="col-md-8">
-      {{ page.description | markdownify }}
-      <section class="links">
-        <h2>Links</h2>
-        {% if page.citekey %}
-          {% nocite page.citekey %}
-          {% bibliography --cited --template pubhublinkstemplate %}
-        {% else %}
-          <ol class="link-list">
-            {% include hubadditionallinks.html %}
-          </ol>
-        {% endif %}
-      </section>
-      {{ content }}
-      <section class="abs-bibtex">
-        {% if page.citekey %}
-          {% bibliography --cited --template pubhubabsbibtex %}
-        {% endif %}
-      </section>
-    </section>
-  </div>
-</div>
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01//EN" "http://www.w3.org/TR/html4/strict.dtd">
+<html>
+<head>
+  <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+  <meta http-equiv="Content-Style-Type" content="text/css">
+  <title></title>
+  <meta name="Generator" content="Cocoa HTML Writer">
+  <meta name="CocoaVersion" content="2299">
+  <style type="text/css">
+    p.p1 {margin: 0.0px 0.0px 0.0px 0.0px; font: 12.0px Times; color: #000000; -webkit-text-stroke: #000000}
+    p.p3 {margin: 0.0px 0.0px 0.0px 0.0px; font: 12.0px Times; color: #000000; -webkit-text-stroke: #000000; min-height: 14.0px}
+    li.li1 {margin: 0.0px 0.0px 0.0px 0.0px; font: 12.0px Times; color: #000000; -webkit-text-stroke: #000000}
+    span.s1 {font-kerning: none}
+    span.s2 {-webkit-text-stroke: 0px #000000}
+    ol.ol1 {list-style-type: decimal}
+  </style>
+</head>
+<body>
+<p class="p1"><span class="s1">--- layout: page ---</span></p>
+<h1 style="margin: 0.0px 0.0px 14.9px 0.0px; font: 18.0px Times; color: #000000; -webkit-text-stroke: #000000"><span class="s1"><b>{{ page.title }}</b></span></h1>
+<p class="p3"><span class="s1"></span><br></p>
+<p class="p1"><span class="s1">{% include hubaside.html %}<span class="Apple-converted-space"> </span></span></p>
+<p class="p1"><span class="s1">{{ page.description | markdownify }}</span></p>
+<h2 style="margin: 0.0px 0.0px 14.9px 0.0px; font: 18.0px Times; color: #000000; -webkit-text-stroke: #000000"><span class="s1"><b>Links</b></span></h2>
+<p class="p1"><span class="s1">{% if page.citekey %} {% nocite page.citekey %} {% bibliography --cited --template pubhublinkstemplate %} {% else %}</span></p>
+<ol class="ol1">
+  <li class="li1"><span class="s2"></span><span class="s1">{% include hubadditionallinks.html %}<span class="Apple-converted-space"> </span></span></li>
+</ol>
+<p class="p1"><span class="s1">{% endif %}<span class="Apple-converted-space"> </span></span></p>
+<p class="p1"><span class="s1">{{ content }}</span></p>
+<p class="p1"><span class="s1">{% if page.citekey %} {% bibliography --cited --template pubhubabsbibtex %} {% endif %}<span class="Apple-converted-space"> </span></span></p>
+</body>
+</html>

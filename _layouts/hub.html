@@ -22,7 +22,7 @@
 <p class="p1"><span class="s1">{% include hubaside.html %}<span class="Apple-converted-space"> </span></span></p>
 <p class="p1"><span class="s1">{{ page.description | markdownify }}</span></p>
 <h2 style="margin: 0.0px 0.0px 14.9px 0.0px; font: 18.0px Times; color: #000000; -webkit-text-stroke: #000000"><span class="s1"><b>Links</b></span></h2>
-<p class="p1"><span class="s1">{% if page.citekey %} {% nocite page.citekey %} {% bibliography --cited --template pubhublinkstemplate %} {% else %}</span></p>
+<p class="p1"><span class="s1">{% if page.citekey %} {% bibliography --cited --template pubhublinkstemplate %} {% else %}</span></p>
 <ol class="ol1">
   <li class="li1"><span class="s2"></span><span class="s1">{% include hubadditionallinks.html %}<span class="Apple-converted-space"> </span></span></li>
 </ol>

@@ -1,232 +1,180 @@
-# Grape-Academic-Theme
-
-<a href="https://jekyll-themes.com">
-    <img src="https://img.shields.io/badge/featured%20on-JekyllThemes-red.svg" height="20" alt="Jekyll Themes Shield" loading="lazy">
-</a>
-
+---
+layout: home
+title: Jekyll Gitbook Theme
+permalink: /
 ---
 
-![home](https://chrjabs.github.io/Grape-Academic-Theme/assets/img/portfolio.png)
+Make Jelly site have a GitBook look!
 
-Welcome to Grape Academic Theme!
-This theme is based on [Grape Theme](https://github.com/naye0ng/Grape-Theme) and modifies it to be more directly applicable as an academic portfolio page.
-It can still include a blog, but that is optional.
+## Demo
 
-[Demo](https://chrjabs.github.io/Grape-Academic-Theme)
+Live demo on Github Pages: [https://sighingnow.github.io/jekyll-gitbook](https://sighingnow.github.io/jekyll-gitbook)
 
-## Features
+[![Jekyll Themes](https://img.shields.io/badge/featured%20on-JekyllThemes-red.svg)](https://jekyll-themes.com/jekyll-gitbook/)
 
-Some of these features are optional and can be turned on or off in the `_config.yml` file.
+## Why Jekyll with GitBook
 
-### [Portfolio Homepage](https://chrjabs.github.io/Grape-Academic-Theme)
+GitBook is an amazing frontend style to present and organize contents (such as book chapters
+and blogs) on Web. The typical to deploy GitBook at [Github Pages][1]
+is building HTML files locally and then push to Github repository, usually to the `gh-pages`
+branch. It's quite annoying to repeat such workload and make it hard for people do version
+control via git for when there are generated HTML files to be staged in and out.
 
-Portfolio page giving an overview of your research.
+This theme takes style definition out of generated GitBook site and provided the template
+for Jekyll to rendering markdown documents to HTML, thus the whole site can be deployed
+to [Github Pages][1] without generating and uploading HTML bundle every time when there are
+changes to the original repo.
 
-### [Publications List](https://chrjabs.github.io/Grape-Academic-Theme/publications)
+## How to Get Started
 
-A optional list of your publications auto-generated from a BibTeX file.
-Additional information can be linked to from the BibTeX file.
+This theme can be used just as other [Jekyll themes][1] and support [remote theme][12],
+see [the official guide][13] as well.
 
-### [Presentations List](https://chrjabs.github.io/Grape-Academic-Theme/presentations)
+You can introduce this jekyll theme into your own site by either
 
-A optional list of your presentations auto-generated for a data file.
+- [Fork][3] this repository and add your markdown posts to the `_posts` folder.
+- Use as a remote theme in your [`_config.yml`][14](just like what we do for this
+  site itself),
 
-### [Blog](https://chrjabs.github.io/Grape-Academic-Theme/blog)
-
-An optional blog for any posts you want to publish.
-
-### [Hub Pages](https://chrjabs.github.io/Grape-Academic-Theme/example-hub)
-
-Hub pages are intended for easy linking in your presentations.
-They collect links and additional information related to your presentation so that you only have to put one link on your slides.
-They can be manually generated or automatically from one of your publication entries.
-
-## Installation and Serving Local Version for Testing
-
-1. Fork and clone the Grape Academic Theme repo
-
-   ```
-   git clone https://github.com/chrjabs/Grape-Academic-Theme.git
-   ```
-
-2. Install Jekyll 
-
-   ```
-   gem install jekyll
-   ```
-
-3. Install the theme's dependencies
-
-   ```
-   bundle install
-   ```
-
-4. Update `_config.yml`, `_data/projects.yml`, `_data/projects.yml` and `_bibliography/publications.bib` with your own settings.
-
-5. Run the Jekyll server
-
-   ```
-   bundle exec jekyll serve
-   ```
-
-## Publishing
-
-Grape-Academic-Theme uses jekyll-scholar and therefore needs to manually be published to GitHub pages.
-A script for publishing on a `gh-pages` branch is included.
-Run `_scripts/publish.sh` from the main project directory and the page will be built, copied to the `gh-pages` branch and published.
-Make sure that GitHub pages is set up to publish that branch.
-If additional scripts should be executed in the HTML root, they can be placed in `_scripts/publish.d` and will be automatically executed.
-
-These are step-by-step instructions for forking and publishing the theme at your `<username>.github.io` github pages website:
-
-1. For the repository to a repository named `<username>/<username>.github.io`
-2. Go to the settings of the new repository and navigate to the "Pages" tab.
-  There, change the source for github pages to the `gh-pages` branch of the repository.
-3. Clone the repository and go through the installation steps listed above
-4. In `_config.yml`, change the `baseurl` option to an empty string (`""`) to host the webpage in the root of your `github.io` page
-5. Commit the change and (with a working jekyll install) run `_scripts/publish.sh`
-6. _Wait a couple of minutes_ and the demo content will show up at `<username>.github.io`
-
-## Customizing
-
-Grape-Theme has two great features: the profile section and the project section of the portfolio page. Just by changing `_config.yml` and `projects.yml`, you can use all of these features.
-
-### Feature Settings
-
-The blog, publications, and presentations pages are optional and can be turned on or off in the config file.
-
-### Favicon
-
-Generate your favicons with [realfavicongenerator.net](https://realfavicongenerator.net/) and place them in the root directory.
-The code to include them is already set up in the template.
-
-### Site configuration
-
-```
-baseurl: "{subpath}"
-
-theme_settings :
-  title: {blog title}
+```yaml
+remote_theme: sighingnow/jekyll-gitbook
 ```
 
-### Profile Settings
+### Deploy Locally with Jekyll Serve
 
-Profile is displayed on the index page, and also experience and skills are displayed on the portfolio page.
-The profile is configured in `_data/profile.yml`.
+This theme can be ran locally using Ruby and Gemfiles.
 
-```
-image: assets/img/smile.png
-username: Christoph Jabs
-description: creator of the Grape-Academic-Theme! Grape-Academic-Theme is a modification of the Grape-Theme by naye0ng, making it more suitable as an academic portfolio.
-webpage: https://chrjabs.github.io
-experience:
-  - start: 2017-05-03
-    end: 2018-05-06
-    experience : company name, title
-interests:
-  - Interest 1
-  - Interest 2
-skills: 
-  - skill: HTML5 & CSS
-    value: 85  # Percent value
+[Testing your GitHub Pages site locally with Jekyll](https://docs.github.com/en/pages/setting-up-a-github-pages-site-with-jekyll/testing-your-github-pages-site-locally-with-jekyll) - GitHub
+
+## Full-text search
+
+The search functionality in jekyll-gitbook theme is powered by the [gitbook-plugin-search-pro][5] plugin and is enabled by default.
+
+[https://sighingnow.github.io/jekyll-gitbook/?q=generated](https://sighingnow.github.io/jekyll-gitbook/?q=generated)
+
+## Code highlight
+
+The code highlight style is configurable the following entry in `_config.yaml`:
+
+```yaml
+syntax_highlighter_style: colorful
 ```
 
-### Presentations
+The default code highlight style is `colorful`, the full supported styles can be found from [the rouge repository][6]. Customized
+style can be added to [./assets/gitbook/rouge/](./assets/gitbook/rouge/).
 
-The data for the presentations page can be defined in `data/presentations.yml`.
+## How to generate TOC
 
-```
-- presentation:
-    title: A nice presentation
-    event: Fancy conference
-    date: 05/2022
-    comment: This is some comment text that can do _Markdown_
-    slides: https://www.google.com # potential link to slides
-- presentation:
-    title: A second presentation
-    event: Another conference
-    date: 03/2022
-```
+The jekyll-gitbook theme leverages [jekyll-toc][4] to generate the *Contents* for the page.
+The TOC feature is not enabled by default. To use the TOC feature, modify the TOC
+configuration in `_config.yml`:
 
-### Hub Pages
-
-For an example on how to configure a hub page, see the `example-hub.md` file.
-
-### Pagination
-
-Defines the number of posts to be shown on one page.
-
-```
-paginate: 5
+```yaml
+toc:
+    enabled: true
+    h_min: 1
+    h_max: 3
 ```
 
-### Portfolio Settings
+## Google Analytics, etc.
 
-![home](https://chrjabs.github.io/Grape-Academic-Theme/assets/img/portfolio.png)
+The jekyll-gitboook theme supports embedding the [Google Analytics][7], [CNZZ][8] and [Application Insights][9] website analytical tools with the following
+minimal configuration in `_config.yaml`:
 
-The Project configuration is available in `_data/projects.yml`.
-
-The portfolio page provides projects and detailed views by modal.
-If `modal : False` is selected, modal will not be displayed on site. 
-
-- **print** : 
-  
-  - If `print: True` is selected, it will be displayed on landing page
-  
-- **modal** 
-  
-  - If `modal: True` is selected, modal will be displayed on the Portfolio page
-  
-    ![home](https://chrjabs.github.io/Grape-Academic-Theme/assets/img/modal.png)
-
-```
-print: True
-modal: True  
+```yaml
+tracker:
+  google_analytics: "<YOUR GOOGLE ANALYTICS KEY, e.g, UA-xxxxxx-x>"
 ```
 
-Add details(link, description) about your projects
+Similarly, CNZZ can be added with the following configuration in `_config.yaml`
 
-```
-url: https://github.com/naye0ng/Grape-Theme # Full URL
-image: "portfolio.png" # path: assets/project/
-date: 2019.06.09 - 2019.07.11
-title: 
-summary: 
-description:  
-# modal contents
-contents:
-  - title:
-    image:      	    
-    description: 
+```yaml
+tracker:
+  cnzz: "<YOUR CNZZ ANALYTICS KEY, e.g., xxxxxxxx>"
 ```
 
-### Colors
+Application Insights can be added with the following configuration in `_config.yaml`
 
-You can change colors at once. colors are in `_sass/base/_variable.scss`
+```yaml
+tracker:
+  application_insights: "<YOUR APPLICATION INSIGHTS CONNECTION STRING>"
+```
 
-## Posts in Grape theme
+## Extra StyleSheet or Javascript elements
 
-You can confirm how to draw tags at [here](https://grape-theme.netlify.com/2019/06/08/markdown-and-html.html) and [here](https://grape-theme.netlify.com/2019/06/09/grape-theme-style.html)
+You can add extra CSS or JavaScript references using configuration collections:
 
-### Create a new post
+- extra_css: for additional style sheets. If the url does not start by http, the path must be relative to the root of the site, without a starting `/`.
+- extra_header_js: for additional scripts to be included in the `<head>` tag, after the `extra_css` has been added. If the url does not start by http, the path must be relative to the root of the site, without a starting `/`.
+- extra_footer_js: for additional scripts to be included at the end of the HTML document, just before the site tracking script. If the url does not start by http, the path must be relative to the root of the site, without a starting `/`.
 
-1. Create a `.md` inside `_posts` folder
-   ```
-   2019-07-11-grape-theme.md
-   ```
+## Customizing font settings
 
-2. Write the [Front Matter](https://jekyllrb.com/docs/front-matter/) and content in the file.
-   ```
-   ---
-   layout: post
-   title: title
-   subtitle : subtitle
-   tags: [tag1, tag2]
-   author: 
-   comments : 
-   ---
-   ```
+The fonts can be customized by modifying the `.book.font-family-0` and `.book.font-family-1` entry in [`./assets/gitbook/custom.css`][10],
 
-## Licence
+```css
+.book.font-family-0 {
+    font-family: Georgia, serif;
+}
+.book.font-family-1 {
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+```
 
-The theme is available as open source under the terms of the [MIT Licence](https://opensource.org/licenses/MIT).
+## Tips, Warnings and Dangers blocks
+
+The jekyll-gitbook theme supports customized kramdown attributes (`{: .block-tip }`, `{: .block-warning }`,
+`{: .block-danger }`) like that displayed in [the discord.js website][11]. The marker can be used like
+
+```markdown
+> ##### TIP
+>
+> This guide is last tested with @napi-rs/canvas^0.1.20, so make sure you have
+> this or a similar version after installation.
+{: .block-tip }
+```
+
+Rendered page can be previewed from
+
+[https://sighingnow.github.io/jekyll-gitbook/jekyll/2022-06-30-tips_warnings_dangers.html](https://sighingnow.github.io/jekyll-gitbook/jekyll/2022-06-30-tips_warnings_dangers.html)
+
+## Cover image inside pages
+
+The jekyll-gitbook theme supports adding a cover image to a specific page by adding
+a `cover` field to the page metadata:
+
+```diff
+  ---
+  title: Page with cover image
+  author: Tao He
+  date: 2022-05-24
+  category: Jekyll
+  layout: post
++ cover: /assets/jekyll-gitbook/dinosaur.gif
+  ---
+```
+
+The effect can be previewed from
+
+[https://sighingnow.github.io/jekyll-gitbook/jekyll/2022-05-24-page_cover.html](https://sighingnow.github.io/jekyll-gitbook/jekyll/2022-05-24-page_cover.html)
+
+## License
+
+This work is open sourced under the Apache License, Version 2.0.
+
+Copyright 2019 Tao He.
+
+[1]: https://pages.github.com
+[2]: https://pages.github.com/themes
+[3]: https://github.com/sighingnow/jekyll-gitbook/fork
+[4]: https://github.com/allejo/jekyll-toc
+[5]: https://github.com/gitbook-plugins/gitbook-plugin-search-pro
+[6]: https://github.com/rouge-ruby/rouge/tree/master/lib/rouge/themes
+[7]: https://analytics.google.com/analytics/web/
+[8]: https://www.cnzz.com/
+[9]: https://docs.microsoft.com/en-us/azure/azure-monitor/app/app-insights-overview
+[10]: https://github.com/sighingnow/jekyll-gitbook/blob/master/gitbook/custom.css
+[11]: https://discordjs.guide/popular-topics/canvas.html#setting-up-napi-rs-canvas
+[12]: https://rubygems.org/gems/jekyll-remote-theme
+[13]: https://docs.github.com/en/pages/setting-up-a-github-pages-site-with-jekyll/adding-a-theme-to-your-github-pages-site-using-jekyll
+[14]: https://github.com/sighingnow/jekyll-gitbook/blob/master/_config.yml

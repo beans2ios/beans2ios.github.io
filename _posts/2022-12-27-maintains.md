@@ -5,7 +5,6 @@ date: 2022-12-27
 category: Portfolio
 layout: post
 ---
-진행한 유지보수 내용입니다.
 
 상세 검색 기능 리뉴얼
 -------------

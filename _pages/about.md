@@ -5,7 +5,7 @@ date: 2022-12-27
 category: Jekyll
 layout: post
 ---
-[내 img 넣기]  
+![Foo](/assets/imge/sample.png)  
 
 3년차 iOS 개발자 공선의입니다.  
 현직에서 iOS 언어를 이용해 hybrid앱, native앱을 병행하여 개발 & 유지보수 하는 업무를 맡고 있습니다.  

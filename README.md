@@ -1,6 +1,6 @@
 ---
 layout: home
-title: Portfolio
+title: 안녕하세요!
 permalink: /
 ---
 

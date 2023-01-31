@@ -36,7 +36,7 @@ network-모델 간의 동작을 간결하게 하는 방식을 생각해보게 �
 - 적용된 기술:
 
 - 기능의 설명:
-![Foo](/assets/imge/sample.png)  
+![sample](/assets/image/sample.png)  
 
 - 구현 방식의 이점:
 
@@ -73,7 +73,7 @@ Swift, ObjectiveC, UIKit
 - 적용된 기술:
 
 - 기능의 설명:
-![Foo](/assets/imge/sample.png)  
+![sample](/assets/image/sample.png)  
 
 - 구현 방식의 이점:
 
@@ -119,7 +119,7 @@ Firebase 여러 제품을 연동해 보며 추후 어떤 상황에서 유용하�
 - 적용된 기술:
 
 - 기능의 설명:
-![Foo](/assets/imge/sample.png)  
+![sample](/assets/image/sample.png)  
 
 - 구현 방식의 이점:
 
@@ -134,7 +134,7 @@ Firebase 여러 제품을 연동해 보며 추후 어떤 상황에서 유용하�
 - 적용된 기술:
 
 - 기능의 설명:
-![Foo](/assets/imge/sample.png)  
+![sample](/assets/image/sample.png)  
 
 - 구현 방식의 이점:
 
@@ -149,7 +149,7 @@ Firebase 여러 제품을 연동해 보며 추후 어떤 상황에서 유용하�
 - 적용된 기술:
 
 - 기능의 설명:
-![Foo](/assets/imge/sample.png)  
+![sample](/assets/image/sample.png)  
 
 - 구현 방식의 이점:
 
@@ -164,7 +164,7 @@ Firebase 여러 제품을 연동해 보며 추후 어떤 상황에서 유용하�
 - 적용된 기술:
 
 - 기능의 설명:
-![Foo](/assets/imge/sample.png)  
+![sample](/assets/image/sample.png)  
 
 - 구현 방식의 이점:
 
@@ -179,7 +179,7 @@ Firebase 여러 제품을 연동해 보며 추후 어떤 상황에서 유용하�
 - 적용된 기술:
 
 - 기능의 설명:
-![Foo](/assets/imge/sample.png)  
+![sample](/assets/image/sample.png)  
 
 - 구현 방식의 이점:
 
@@ -194,7 +194,7 @@ Firebase 여러 제품을 연동해 보며 추후 어떤 상황에서 유용하�
 - 적용된 기술:
 
 - 기능의 설명:
-![Foo](/assets/imge/sample.png)  
+![sample](/assets/image/sample.png)  
 
 - 구현 방식의 이점:
 
@@ -209,7 +209,7 @@ Firebase 여러 제품을 연동해 보며 추후 어떤 상황에서 유용하�
 - 적용된 기술:
 
 - 기능의 설명:
-![Foo](/assets/imge/sample.png)  
+![sample](/assets/image/sample.png)  
 
 - 구현 방식의 이점:
 
@@ -224,7 +224,7 @@ window.open, window.close 처리
 - 적용된 기술:
 
 - 기능의 설명:
-![Foo](/assets/imge/sample.png)  
+![sample](/assets/image/sample.png)  
 
 - 구현 방식의 이점:
 
@@ -240,7 +240,7 @@ Firebase 적용 및 충돌 관리
 - 적용된 기술:
 
 - 기능의 설명:
-![Foo](/assets/imge/sample.png)  
+![sample](/assets/image/sample.png)  
 
 - 구현 방식의 이점:
 
@@ -256,7 +256,7 @@ Firebase 적용 및 충돌 관리
 - 적용된 기술:
 
 - 기능의 설명:
-![Foo](/assets/imge/sample.png)    
+![sample](/assets/image/sample.png)  
 
 - 구현 방식의 이점:
 
@@ -271,7 +271,7 @@ Firebase 적용 및 충돌 관리
 - 적용된 기술:
 
 - 기능의 설명:
-![Foo](/assets/imge/sample.png)  
+![sample](/assets/image/sample.png)  
 
 - 구현 방식의 이점:
 
@@ -286,7 +286,7 @@ UI뷰 코드 작성
 - 적용된 기술:
 
 - 기능의 설명:
-![Foo](/assets/imge/sample.png)  
+![sample](/assets/image/sample.png)  
 
 - 구현 방식의 이점:
 

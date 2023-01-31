@@ -160,7 +160,7 @@ Firebase 여러 제품을 연동해 보며 추후 어떤 상황에서 유용하�
 
 - 추후 유지보수에 대한 이점:
 
-앱내 웹뷰의 window.open, window.close 처리
+window.open, window.close
 -------------
 - 적용된 기술:
 

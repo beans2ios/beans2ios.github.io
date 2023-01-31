@@ -1,6 +1,6 @@
 ---
 layout: home
-title: 포트폴리오 소개
+title: 안녕하세요!
 permalink: /
 ---
 

@@ -170,6 +170,7 @@ api 호출을 줄일 수 있는 방법을 생각해보고 감소한 경험이 �
  <img width="240" alt="image" src="https://github.com/beans2ios/beans2ios.github.io/assets/108510080/519df4e0-e6cc-416c-81a5-be74655ad467">
  <img width="240" alt="image" src="https://github.com/beans2ios/beans2ios.github.io/assets/108510080/c2ed2cbc-6533-4ee9-9255-9e3ea5b4f4f6">
 </p>
+(Debounce 적용 테스트 시 이벤트 감소 비교 사진)
 
 ### 느낀점
 앱 성능 개선에 대해 생각해보는 계기가 되었습니다.  

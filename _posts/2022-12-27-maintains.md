@@ -6,7 +6,7 @@ category: Portfolio
 layout: post
 ---
 
-ObjectiveC to Swift 개발 언어 전환1
+ObjectiveC to Swift 개발 언어 전환
 -------------
 <p>
  <img width="480" alt="image" src="https://github.com/beans2ios/beans2ios.github.io/assets/108510080/3164925c-b765-4310-8f59-62dba7b0ad73">  
@@ -149,7 +149,6 @@ Timer에 대해 공부하며, UI의 업데이트 및 Run Loop 등 iOS에서 Thre
 - 기능 설명:  
 앱의 성능 높이기에 대한 고민을 하고 적용했습니다. 
 1. 충돌 관리
-
 2. 메모리 누수 체크
 3. api 호출 감소 고민 및 개선
 

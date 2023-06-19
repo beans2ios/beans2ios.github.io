@@ -1,6 +1,6 @@
 ---
 title: 유지보수
-author: Kong seoueui
+author: Kong seonui
 date: 2022-12-27
 category: Portfolio
 layout: post

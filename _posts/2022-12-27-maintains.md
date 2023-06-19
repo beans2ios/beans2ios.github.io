@@ -9,8 +9,9 @@ layout: post
 ObjectiveC to Swift 개발 언어 전환
 -------------
 <p>
- <img width="480" alt="image" src="https://github.com/beans2ios/beans2ios.github.io/assets/108510080/448dab8d-b14b-4279-9cbb-a55488158552">  
+ <img width="480" alt="image" src="https://github.com/beans2ios/beans2ios.github.io/assets/108510080/3164925c-b765-4310-8f59-62dba7b0ad73">  
 </p>
+
 
 ### 주요 사용 기술: 
   ObjectiveC, Swift  
@@ -115,7 +116,7 @@ APNS, 사내 푸시시스템, 디바이스 기기간의 푸시 전송 로직을 
 배너 기능 추가
 -------------
 <p>
- <img width="300" alt="image" src="https://github.com/beans2ios/beans2ios.github.io/assets/108510080/94db3225-f7c4-41e2-90f7-61964f19d83b">
+ <img width="300" alt="image" src="https://github.com/beans2ios/beans2ios.github.io/assets/108510080/6ed4e537-3552-4cf0-ab18-caaa871400b1">
 </p>
 
 
@@ -172,8 +173,8 @@ Timer에 대해 공부하며, UI의 업데이트 및 Run Loop 등 iOS에서 Thre
  글자 변경 이벤트가 발생하고 0.3초 이내에 이벤트가 없는 경우, api호출과 자동완성 키워드 리스트를 가져와 노출하는 동작을 실행시켰습니다.  
  이로 적용하므로서 1/4 이하의 api 호출 감소 하므로서 서버의 부하는 감소시키고 앱내 성능은 증가시켰습니다.  
  <p>
-  <img width="240" alt="image" src="https://github.com/beans2ios/beans2ios.github.io/assets/108510080/632ca2d2-5692-42ba-a3b4-14f1001aaa9f">
-  <img width="240" alt="image" src="https://github.com/beans2ios/beans2ios.github.io/assets/108510080/75120ee0-a285-48e6-b53a-37293a0bdc9a">
+  <img width="240" alt="image" src="https://github.com/beans2ios/beans2ios.github.io/assets/108510080/519df4e0-e6cc-416c-81a5-be74655ad467">
+  <img width="240" alt="image" src="https://github.com/beans2ios/beans2ios.github.io/assets/108510080/c2ed2cbc-6533-4ee9-9255-9e3ea5b4f4f6">
  </p>
 
 ### 느낀점:  

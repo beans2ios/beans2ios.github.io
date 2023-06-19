@@ -1,6 +1,6 @@
 ---
 title: 업무 외 프로젝트 
-author: 공선의
+author: Kong seoueui
 date: 2022-12-27
 category: Portfolio
 layout: post
